@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <widget class="QTableView" name="ticketTableView"/>
+    <widget class="QPushButton" name="createTicketButton">
+     <property name="text">
+      <string>Create Ticket</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="assignTicketButton">
+     <property name="text">
+      <string>Assign Ticket</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="updateStatusButton">
+     <property name="text">
+      <string>Update Status</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="commentTextEdit">
+     <property name="placeholderText">
+      <string>Add a comment...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="submitCommentButton">
+     <property name="text">
+      <string>Submit Comment</string>
+     </property>
+    </widget>
+   </layout>
+  </widget>
+  <menuBar class="QMenuBar" name="menuBar">
+   <addAction name="fileMenu"/>
+   <addAction name="helpMenu"/>
+  </menuBar>
+  <statusBar class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
