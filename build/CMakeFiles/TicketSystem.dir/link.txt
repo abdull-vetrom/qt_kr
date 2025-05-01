@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\TicketSystem.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\TicketSystem.dir/objects.a @CMakeFiles\TicketSystem.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TicketSystem.dir/objects.a -Wl,--no-whole-archive -o TicketSystem.exe -Wl,--out-implib,libTicketSystem.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TicketSystem.dir\linkLibs.rsp

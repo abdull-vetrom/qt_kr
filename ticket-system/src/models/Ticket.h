@@ -1,24 +1,29 @@
 #ifndef TICKET_H
 #define TICKET_H
 
-#include <QString>
+#include <string>
 
 class Ticket {
 public:
-    Ticket(const QString &title, const QString &description, const QString &status, int priority);
+    Ticket(const std::string& title, const std::string& description, const std::string& status, const std::string& priority);
 
-    QString getTitle() const;
-    void setDescription(const QString &description);
-    QString getStatus() const;
-    void setStatus(const QString &status);
-    int getPriority() const;
-    void setPriority(int priority);
+    // Геттеры
+    std::string getTitle() const;
+    std::string getDescription() const;
+    std::string getStatus() const;
+    std::string getPriority() const;
+
+    // Сеттеры
+    void setTitle(const std::string& title);
+    void setDescription(const std::string& description);
+    void setStatus(const std::string& status);
+    void setPriority(const std::string& priority);
 
 private:
-    QString title;
-    QString description;
-    QString status;
-    int priority;
+    std::string m_title;         // Название тикета
+    std::string m_description;   // Описание тикета
+    std::string m_status;        // Статус тикета
+    std::string m_priority;      // Приоритет тикета
 };
 
 #endif // TICKET_H

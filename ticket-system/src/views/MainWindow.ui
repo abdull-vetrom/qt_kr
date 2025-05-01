@@ -2,41 +2,69 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout">
-    <widget class="QTableView" name="ticketTableView"/>
-    <widget class="QPushButton" name="createTicketButton">
-     <property name="text">
-      <string>Create Ticket</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="assignTicketButton">
-     <property name="text">
-      <string>Assign Ticket</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="updateStatusButton">
-     <property name="text">
-      <string>Update Status</string>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="commentTextEdit">
-     <property name="placeholderText">
-      <string>Add a comment...</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="submitCommentButton">
-     <property name="text">
-      <string>Submit Comment</string>
-     </property>
-    </widget>
+    <item>
+     <widget class="QTableView" name="ticketTableView"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="createTicketButton">
+      <property name="text">
+       <string>Create Ticket</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="assignTicketButton">
+      <property name="text">
+       <string>Assign Ticket</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="updateStatusButton">
+      <property name="text">
+       <string>Update Status</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="commentTextEdit">
+      <property name="placeholderText">
+       <string>Add a comment...</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="submitCommentButton">
+      <property name="text">
+       <string>Submit Comment</string>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
-  <menuBar class="QMenuBar" name="menuBar">
-   <addAction name="fileMenu"/>
-   <addAction name="helpMenu"/>
-  </menuBar>
-  <statusBar class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <addaction name="fileMenu"/>
+   <addaction name="helpMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <resources/>
  <connections/>

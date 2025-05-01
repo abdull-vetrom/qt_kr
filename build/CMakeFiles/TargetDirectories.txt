@@ -1,0 +1,5 @@
+D:/qt_kr/build/CMakeFiles/TicketSystem.dir
+D:/qt_kr/build/CMakeFiles/edit_cache.dir
+D:/qt_kr/build/CMakeFiles/rebuild_cache.dir
+D:/qt_kr/build/CMakeFiles/TicketSystem_autogen_timestamp_deps.dir
+D:/qt_kr/build/CMakeFiles/TicketSystem_autogen.dir

@@ -1,44 +1,18 @@
 #include "DatabaseManager.h"
-#include <QSqlDatabase>
-#include <QSqlQuery>
 #include <QSqlError>
-#include <QVariant>
 #include <QDebug>
 
 DatabaseManager::DatabaseManager(const QString& dbName) {
-    db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName(dbName);
+    m_database = QSqlDatabase::addDatabase("QSQLITE");
+    m_database.setDatabaseName(dbName);
+
+    if (!m_database.open()) {
+        qDebug() << "Failed to connect to database:" << m_database.lastError().text();
+    } else {
+        qDebug() << "Connected to database:" << dbName;
+    }
 }
 
-bool DatabaseManager::open() {
-    if (!db.open()) {
-        qDebug() << "Error: Unable to open database" << db.lastError().text();
-        return false;
-    }
-    return true;
-}
-
-void DatabaseManager::close() {
-    db.close();
-}
-
-QSqlQuery DatabaseManager::executeQuery(const QString& queryStr) {
-    QSqlQuery query;
-    query.prepare(queryStr);
-    if (!query.exec()) {
-        qDebug() << "Error: Unable to execute query" << query.lastError().text();
-    }
-    return query;
-}
-
-QSqlQuery DatabaseManager::executeQuery(const QString& queryStr, const QVariantList& params) {
-    QSqlQuery query;
-    query.prepare(queryStr);
-    for (const QVariant& param : params) {
-        query.addBindValue(param);
-    }
-    if (!query.exec()) {
-        qDebug() << "Error: Unable to execute query" << query.lastError().text();
-    }
-    return query;
+QSqlDatabase DatabaseManager::getDatabase() const {
+    return m_database;
 }

@@ -1,0 +1,15 @@
+QPushButton {
+    background-color: #0078d7;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: #005a9e;
+}
+
+QTableView {
+    gridline-color: #d3d3d3;
+    selection-background-color: #0078d7;
+}

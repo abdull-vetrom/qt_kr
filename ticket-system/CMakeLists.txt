@@ -33,3 +33,7 @@ set(RESOURCES
 add_executable(TicketSystem ${SOURCES} ${HEADERS} ${RESOURCES})
 
 target_link_libraries(TicketSystem Qt6::Widgets)
+
+find_package(Qt6 REQUIRED COMPONENTS Widgets Sql)
+
+target_link_libraries(TicketSystem Qt6::Widgets Qt6::Sql)

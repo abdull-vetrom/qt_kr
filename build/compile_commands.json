@@ -1,0 +1,44 @@
+[
+{
+  "directory": "D:/qt_kr/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TicketSystem.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TicketSystem.dir\\TicketSystem_autogen\\mocs_compilation.cpp.obj -c D:\\qt_kr\\build\\TicketSystem_autogen\\mocs_compilation.cpp",
+  "file": "D:/qt_kr/build/TicketSystem_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/TicketSystem.dir/TicketSystem_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/qt_kr/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TicketSystem.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TicketSystem.dir\\src\\main.cpp.obj -c D:\\qt_kr\\ticket-system\\src\\main.cpp",
+  "file": "D:/qt_kr/ticket-system/src/main.cpp",
+  "output": "CMakeFiles/TicketSystem.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/qt_kr/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TicketSystem.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TicketSystem.dir\\src\\controllers\\TicketController.cpp.obj -c D:\\qt_kr\\ticket-system\\src\\controllers\\TicketController.cpp",
+  "file": "D:/qt_kr/ticket-system/src/controllers/TicketController.cpp",
+  "output": "CMakeFiles/TicketSystem.dir/src/controllers/TicketController.cpp.obj"
+},
+{
+  "directory": "D:/qt_kr/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TicketSystem.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TicketSystem.dir\\src\\models\\Ticket.cpp.obj -c D:\\qt_kr\\ticket-system\\src\\models\\Ticket.cpp",
+  "file": "D:/qt_kr/ticket-system/src/models/Ticket.cpp",
+  "output": "CMakeFiles/TicketSystem.dir/src/models/Ticket.cpp.obj"
+},
+{
+  "directory": "D:/qt_kr/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TicketSystem.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TicketSystem.dir\\src\\views\\MainWindow.cpp.obj -c D:\\qt_kr\\ticket-system\\src\\views\\MainWindow.cpp",
+  "file": "D:/qt_kr/ticket-system/src/views/MainWindow.cpp",
+  "output": "CMakeFiles/TicketSystem.dir/src/views/MainWindow.cpp.obj"
+},
+{
+  "directory": "D:/qt_kr/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TicketSystem.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TicketSystem.dir\\src\\utils\\DatabaseManager.cpp.obj -c D:\\qt_kr\\ticket-system\\src\\utils\\DatabaseManager.cpp",
+  "file": "D:/qt_kr/ticket-system/src/utils/DatabaseManager.cpp",
+  "output": "CMakeFiles/TicketSystem.dir/src/utils/DatabaseManager.cpp.obj"
+},
+{
+  "directory": "D:/qt_kr/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64 @CMakeFiles/TicketSystem.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\TicketSystem.dir\\TicketSystem_autogen\\F4FAE6NH3Q\\qrc_styles.cpp.obj -c D:\\qt_kr\\build\\TicketSystem_autogen\\F4FAE6NH3Q\\qrc_styles.cpp",
+  "file": "D:/qt_kr/build/TicketSystem_autogen/F4FAE6NH3Q/qrc_styles.cpp",
+  "output": "CMakeFiles/TicketSystem.dir/TicketSystem_autogen/F4FAE6NH3Q/qrc_styles.cpp.obj"
+}
+]

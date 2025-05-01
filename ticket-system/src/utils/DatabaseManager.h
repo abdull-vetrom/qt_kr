@@ -1,24 +1,17 @@
 #ifndef DATABASEMANAGER_H
 #define DATABASEMANAGER_H
 
-#include <QString>
 #include <QSqlDatabase>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QVariant>
+#include <QString>
 
 class DatabaseManager {
 public:
-    DatabaseManager();
-    ~DatabaseManager();
+    explicit DatabaseManager(const QString& dbName); // Объявление конструктора
 
-    bool connectToDatabase(const QString& dbName);
-    void disconnectFromDatabase();
-    bool executeQuery(const QString& query);
-    QVariant getQueryResult(const QString& query);
+    QSqlDatabase getDatabase() const;
 
 private:
-    QSqlDatabase db;
+    QSqlDatabase m_database; // Поле для хранения подключения к базе данных
 };
 
 #endif // DATABASEMANAGER_H
